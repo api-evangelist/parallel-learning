@@ -1,8 +1,13 @@
 aid: parallel-learning
 name: Parallel Learning
-description: Parallel Learning is a company surfaced as a portfolio company of obvious-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Parallel Learning is a special education services and staffing platform that connects K-12
+  schools and districts with a nationwide network of licensed clinicians for the remote delivery of specialized
+  student support. Through its proprietary, HIPAA/FERPA-compliant Pathway platform it delivers virtual
+  psychoeducational and neurodevelopmental assessments, speech-language therapy, behavioral and mental-health
+  counseling, specialized instruction in reading, writing, and math, and executive-function coaching, pairing
+  secure teletherapy with progress tracking and clinical oversight so districts can meet compliance requirements
+  and improve student outcomes. The company serves thousands of students across dozens of states and does
+  not currently publish a public developer API, SDK, or API documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/parallel-learning/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +15,32 @@ x-backed-by:
 - obvious-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://storage.googleapis.com/parallel-static-assets/logos/parallel-brandmark-orange.svg
 tags:
 - Company
+- Special Education
+- Education
+- EdTech
+- Teletherapy
+- Healthcare
+- Assessments
+- Mental Health
+- HIPAA
+- FERPA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/parallel-learning-domain-security.yml
 - type: Website
   url: https://parallellearning.com
+- type: About
+  url: https://www.parallellearning.com/about
+- type: Blog
+  url: https://www.parallellearning.com/blog
+- type: Support
+  url: https://help.parallellearning.com/hc/en-us
+- type: Login
+  url: https://app.parallellearning.com
+- type: TermsOfService
+  url: https://www.parallellearning.com/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.parallellearning.com/legal/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
